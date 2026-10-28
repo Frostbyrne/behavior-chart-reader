@@ -1,0 +1,369 @@
+{
+  "titleEdge": "left",
+  "chartTitle": "Westfield's STAR: Student and Teachers Are Reflecting",
+  "studentName": "Jordan Rivera",
+  "teacher": "Ms. Park",
+  "date": "2026-10-21",
+  "dateAsWritten": "10/21/26",
+  "scale": {
+    "min": 0,
+    "max": 2,
+    "labels": [
+      {
+        "value": 2,
+        "label": "Great Job!"
+      },
+      {
+        "value": 1,
+        "label": "OK"
+      },
+      {
+        "value": 0,
+        "label": "Difficult time"
+      }
+    ]
+  },
+  "periods": [
+    {
+      "name": "Arrival & Morning Meeting",
+      "crossedOut": false,
+      "note": "",
+      "writtenTotal": "7/8"
+    },
+    {
+      "name": "ELA",
+      "crossedOut": false,
+      "note": "",
+      "writtenTotal": "8/8"
+    },
+    {
+      "name": "Specials",
+      "crossedOut": false,
+      "note": "adapted PE",
+      "writtenTotal": "5/8"
+    },
+    {
+      "name": "Specials",
+      "crossedOut": true,
+      "note": "",
+      "writtenTotal": "/8"
+    },
+    {
+      "name": "Acceleration",
+      "crossedOut": false,
+      "note": "",
+      "writtenTotal": "8/8"
+    },
+    {
+      "name": "Math",
+      "crossedOut": false,
+      "note": "",
+      "writtenTotal": "8/8"
+    },
+    {
+      "name": "Recess",
+      "crossedOut": false,
+      "note": "",
+      "writtenTotal": "7/8"
+    },
+    {
+      "name": "Lunch",
+      "crossedOut": false,
+      "note": "",
+      "writtenTotal": "7/8"
+    },
+    {
+      "name": "Foundations",
+      "crossedOut": false,
+      "note": "off task",
+      "writtenTotal": "7/8"
+    },
+    {
+      "name": "Small Group",
+      "crossedOut": false,
+      "note": "needed reminders",
+      "writtenTotal": "6/8"
+    },
+    {
+      "name": "SEL/TDPE",
+      "crossedOut": false,
+      "note": "took break",
+      "writtenTotal": "8/8"
+    },
+    {
+      "name": "Science/SS",
+      "crossedOut": false,
+      "note": "",
+      "writtenTotal": "8/8"
+    }
+  ],
+  "goals": [
+    {
+      "label": "Listen and Follow Directions",
+      "cells": [
+        {
+          "value": 2,
+          "state": "rated",
+          "note": "raised hand"
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 1,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": null,
+          "state": "crossed_out",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 1,
+          "state": "rated",
+          "note": "off task"
+        },
+        {
+          "value": 1,
+          "state": "rated",
+          "note": "needed reminders"
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "label": "No shout outs, Calm voice",
+      "cells": [
+        {
+          "value": 1,
+          "state": "rated",
+          "note": "called out x2"
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 0,
+          "state": "rated",
+          "note": "yelling in gym"
+        },
+        {
+          "value": null,
+          "state": "crossed_out",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 1,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "label": "Kept my hands to myself/ personal space",
+      "cells": [
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": null,
+          "state": "crossed_out",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 1,
+          "state": "rated",
+          "note": "pushed in line"
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "label": "Stay in your assigned space",
+      "cells": [
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": null,
+          "state": "crossed_out",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 1,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        },
+        {
+          "value": 2,
+          "state": "rated",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "dailyNotes": "Great afternoon! Took a break before SEL and came back ready.",
+  "writtenDailyTotal": "79 / 88 → 90%",
+  "uncertainties": [
+    "The second Specials column has a line through its header and no ratings; its total reads \"/8\" and may be a crossed-out period, so please confirm.",
+    "Daily total \"79 / 88\" is hard to read; verify the digits.",
+    "Small Group, Stay in your assigned space: circle sits around 1 and may overlap 0, so please check."
+  ]
+}

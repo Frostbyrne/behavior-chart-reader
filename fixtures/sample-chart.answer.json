@@ -1,0 +1,88 @@
+{
+  "studentName": "Jordan Rivera",
+  "teacher": "Ms. Park",
+  "date": "2026-10-21",
+  "goals": [
+    "Listen and Follow Directions",
+    "No shout outs, Calm voice",
+    "Kept my hands to myself/ personal space",
+    "Stay in your assigned space"
+  ],
+  "periods": [
+    "Arrival & Morning Meeting",
+    "ELA",
+    "Specials",
+    "Specials",
+    "Acceleration",
+    "Math",
+    "Recess",
+    "Lunch",
+    "Foundations",
+    "Small Group",
+    "SEL/TDPE",
+    "Science/SS"
+  ],
+  "crossedOut": [
+    3
+  ],
+  "ratings": [
+    [
+      2,
+      2,
+      1,
+      null,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      2,
+      0,
+      null,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      null,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      2,
+      null,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2
+    ]
+  ],
+  "earned": 79,
+  "possible": 88
+}
