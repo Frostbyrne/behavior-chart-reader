@@ -49,3 +49,12 @@ pnpm check:read          # one live read of fixtures/sample-chart.jpg, scored ag
 ```
 
 `fixtures/` holds a fictional chart (made-up student) drawn by `scripts/make-sample-chart.py`. Never commit real charts.
+
+## License
+
+Copyright (C) 2026 James Byrne
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. See [LICENSE](LICENSE).
