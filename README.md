@@ -14,7 +14,7 @@ the paper, and the reviewed chart goes into their own Google Sheet:
 | Where | What happens |
 | --- | --- |
 | Browser | The photo is shrunk and stripped of EXIF (location, device) before upload. The Google token is held in memory only. The only thing saved in the browser is the sheet's ID. |
-| `/api/read` | Checks the Google token was issued to this app for an allowed account, sends the photo to AI Gateway, returns the reading. No database, no blob storage, no files; logs record error kinds only, never chart content. |
+| `/api/read` | Checks the Google token was issued to this app for an allowed account, sends the photo to AI Gateway, returns the reading. No database, no blob storage, no files; logs record the signed-in email on each read (including accounts turned away) and error kinds, never chart content. |
 | AI Gateway | Every request sets `zeroDataRetention: true`, so it only routes to providers with zero-data-retention agreements. AI Gateway itself keeps no prompts or outputs. |
 | Google Sheets | The reviewed chart goes from the teacher's browser straight to their own sheet. This app's server never sees it. The `drive.file` scope lets the app touch only the sheets it created. |
 

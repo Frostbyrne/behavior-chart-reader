@@ -15,6 +15,7 @@ export class AuthError extends Error {
   constructor(
     message: string,
     readonly status: 401 | 403,
+    readonly email?: string,
   ) {
     super(message);
   }
@@ -66,7 +67,11 @@ export async function requireUser(request: Request): Promise<User> {
   const email = (info.email ?? "").toLowerCase();
   const verified = info.email_verified === true || info.email_verified === "true";
   if (!email || !verified || !isAllowed(email)) {
-    throw new AuthError(`${email || "This account"} isn't on this app's list of users. Ask whoever runs it to add you.`, 403);
+    throw new AuthError(
+      `${email || "This account"} isn't on this app's list of users. Ask whoever runs it to add you.`,
+      403,
+      email || undefined,
+    );
   }
 
   const user = { email };

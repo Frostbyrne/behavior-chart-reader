@@ -6,7 +6,8 @@ import { readChart } from "@/lib/server/read-chart";
  * POST a chart photo, get back the AI's reading. The photo lives only in this
  * request's memory: it is not written to disk, a database, blob storage or
  * the logs, and AI Gateway is told to use zero-data-retention providers only.
- * Errors are logged by kind, never with chart content.
+ * Logs record who asked (the signed-in email, allowed or turned away) and
+ * errors by kind, never chart content.
  */
 
 export const maxDuration = 120;
@@ -35,10 +36,14 @@ export async function POST(request: Request) {
   try {
     ({ email } = await requireUser(request));
   } catch (err) {
-    if (err instanceof AuthError) return fail(err.message, err.status);
+    if (err instanceof AuthError) {
+      if (err.email) console.info("read denied:", err.email);
+      return fail(err.message, err.status);
+    }
     console.error("auth check failed:", (err as Error).name);
     return fail("Couldn't check your sign-in. Try again.", 502);
   }
+  console.info("read by:", email);
   if (overLimit(email)) return fail("That's a lot of charts in an hour. Try again later.", 429);
 
   let file: File | null = null;
